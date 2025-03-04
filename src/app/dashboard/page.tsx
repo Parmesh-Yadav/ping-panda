@@ -30,7 +30,7 @@ const Page = async ({ searchParams }: PageProps) => {
     });
 
     if (!user) {
-        redirect('/sign-in');
+        redirect('/welcome');
     }
 
     const intent = searchParams.intent;
