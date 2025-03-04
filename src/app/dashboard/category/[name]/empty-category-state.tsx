@@ -28,7 +28,7 @@ export const EmptyCategoryState = ({ categoryName }: { categoryName: string }) =
             router.refresh();
     }, [hasEvents, router])
 
-    const codeSnippet = `await fetch('http://localhost:3000/api/events', {
+    const codeSnippet = `await fetch('https://stellular-medovik-85227c.netlify.app/api/events', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY'
